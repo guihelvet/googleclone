@@ -1,0 +1,117 @@
+header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+
+
+li {
+    display: inline-block;
+    margin: 14px;
+    margin-right: 6px;
+
+}
+
+img {
+    width: 24px;
+    height: 24px;
+    flex-direction: row-reverse;
+    margin-top:27px ;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+img:hover {
+    box-shadow: 5px 3px 5px black;
+}
+
+#logo {
+width: 300px;
+height: 100px;
+margin-left: 38%;
+box-shadow: none;
+}
+
+input {
+    margin-left: 31%;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 15px;
+    width: 500px;
+    height: 40px;
+
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.buttons button {
+    height: 33px;
+    padding: 10px 16px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #303134;
+    color: white;
+    margin: 0 5px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    box-shadow: 6px 3px 5px grey;
+}
+
+.rodape{
+    background: #171717;
+    color: #9aa0a6;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.local{
+    border-bottom: #5f6368 solid 1px;
+    padding: 15px 20px;
+    font-size: 14px;
+}
+.lista-esquerda{
+    display: flex;
+    gap: 30px;
+    padding: 15px 20px;
+    font-size: 12px;
+}
+.lista-direita{
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
